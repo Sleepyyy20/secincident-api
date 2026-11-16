@@ -1,8 +1,8 @@
 import pytest
 
-from app import create_app
-from app.config import TestConfig
-from app.extensions import db
+from secincident import create_app
+from secincident.config import TestConfig
+from secincident.extensions import db
 
 API_KEY = {"X-API-Key": "test-key"}
 

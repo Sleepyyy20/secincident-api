@@ -1,7 +1,7 @@
 """Unit test modul validasi (tidak membutuhkan database)."""
 import pytest
 
-from app.validation import ValidationError, validate
+from secincident.validation import ValidationError, validate
 
 RULES = {
     "name": {"type": "str", "required": True, "min_len": 3, "max_len": 10},
